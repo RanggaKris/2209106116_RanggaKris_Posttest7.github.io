@@ -1,0 +1,243 @@
+body, h1, h2, h3, h4, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    color: #4d4d4d;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+body {
+    font-size: 28px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #520b4c;
+    position: sticky;
+    top: 0;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #111;
+  }
+
+  .active {
+    background-color: hsl(0, 0%, 0%);
+  }
+
+  body {
+    font-size: 28px;
+    padding-top: 50px; 
+  }
+  
+main {
+    padding: 20px;
+}
+
+main h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+main p {
+    font-size: 16px;
+}
+
+main ul {
+    list-style: none;
+    padding: 0;
+}
+
+main ul li {
+    margin-bottom: 20px;
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+}
+
+.gambar {
+    width: 800px;
+    height: 400px;
+    transition: opacity 0.2s ease; 
+  }
+
+  .gambar:hover {
+    opacity: 0.6;
+  }
+
+  .fotodri {
+    width: 500px;
+    height: 500px;
+    transition: opacity 0.2s ease; 
+    
+  }
+
+  .fotodri:hover {
+    opacity: 0.6; 
+  }
+
+.clr{
+    color: aliceblue;
+}
+
+.req{
+  color: aliceblue;
+}
+
+label[for="model"] {
+  color: white !important;
+}
+
+
+
+
+body {
+  background-color: #fff;
+  color: #000;
+  font-size: 16px;
+  margin: 20px;
+}
+
+body.dark-mode {
+  background-color: #000000;
+  color: #fff;
+  font-size: 18px;
+  margin: 10px;
+}
+
+
+
+
+#aa-button {
+  background-color: #5e0258;
+  color: #ffffffb7;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#aa-button:hover {
+  background-color: #b03131;
+}
+
+
+
+
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button[type="submit"] {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+
+.car-info {
+  float: left; 
+  width: 60%; 
+  padding: 10px; 
+}
+
+ul {
+  list-style: none; 
+  padding: 0; 
+}
+
+li {
+  clear: both; 
+  padding: 20px 0; 
+  border-top: 1px solid #ddd; 
+}
+
+
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #800080; 
+    background-color: #fff; 
+}
+
+table tr {
+    border: 1px solid #800080; 
+}
+
+table th {
+    background-color: #800080; 
+    color: #fff; 
+    font-weight: bold;
+    padding: 8px;
+    border: 1px solid #800080; 
+}
+
+
+table td {
+    padding: 8px;
+    border: 1px solid #800080; 
+}
